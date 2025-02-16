@@ -236,13 +236,14 @@ i {
 }
 
 .success-msg {
-    padding: 10px 20px;
+    padding: 20px 30px;
     position: fixed;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background: rgba(65, 105, 225, 0.25);
+    color: rgb(0, 128, 0);
+    background: rgb(229, 255, 229);
     display: none;
 }
 .success-msg.active {
