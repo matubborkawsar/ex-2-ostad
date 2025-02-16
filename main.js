@@ -109,7 +109,7 @@ function createCartProduct(productName, productPrice, productImg) {
                         <p>1</p>
                         <div class="button increase">+</div>
                     </div>
-                    <h3 class="price"><span>${productPrice}</span> BDT</h3>
+                    <h3 class="price"><span>${productPrice}</span> USD</h3>
                 </div>
             </div>
             <div class="delete">x</div>
