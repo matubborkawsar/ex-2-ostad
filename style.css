@@ -243,7 +243,7 @@ i {
     transform: translate(-50%, -50%);
     text-align: center;
     color: rgb(0, 128, 0);
-    background: rgb(229, 255, 229);
+    background: rgba(242, 255, 242, 0.8);
     display: none;
 }
 .success-msg.active {
