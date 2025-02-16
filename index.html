@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ex-2-cart</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- Flat-icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+        />
+    </head>
+    <body>
+        <!-- Header-start -->
+        <header id="header" class="header">
+            <div class="logo">
+                <a href="index.html">loGo<span>.</span></a>
+            </div>
+            <ul class="main-menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+            </ul>
+            <ul class="user-menu">
+                <li class="button cart-button">
+                    <i class="fi fi-rr-shopping-cart"></i>
+                </li>
+                <li class="button">
+                    <i class="fi fi-rr-heart"></i>
+                </li>
+                <li class="button">
+                    <i class="fi fi-rr-user"></i>
+                </li>
+            </ul>
+        </header>
+        <!-- Header-end -->
+        <!-- Cart-start -->
+        <div id="cart-container" class="cart-container">
+            <h2>Your cart</h2>
+            <div class="cart-product-wrapper"></div>
+            <div class="subtotal">
+                <h3 class="item">Total: <span>0</span> Item(s)</h3>
+                <h3 class="price">Subtotal: <span>0.00</span> USD</h3>
+                <div class="button">Checkout</div>
+            </div>
+        </div>
+        <!-- Cart-end -->
+        <!-- Product-start -->
+        <div id="product-container" class="product-container">
+            <h1>Our products</h1>
+            <div class="product-wrapper"></div>
+            <div class="success-msg">Product has been added to your cart</div>
+        </div>
+        <!-- Product-end -->
+        <!-- JS -->
+        <script src="main.js"></script>
+    </body>
+</html>
